@@ -1,4 +1,4 @@
-package com.shaunmitchell.messagingapp;
+package com.shaunmitchell.messagingapp.message;
 
 
 public class Message

@@ -1,11 +1,14 @@
-package com.shaunmitchell.messagingapp;
+package com.shaunmitchell.messagingapp.message;
 
 import java.util.ArrayList;
+
+import com.shaunmitchell.messagingapp.activity.MainActivity;
 
 public class MessageThread
 {
 	private ArrayList<Message> m_messages = new ArrayList<Message>();
 	private String m_threadTitle;
+	private Boolean m_wasRead = false;
 
 	public MessageThread(String threadTitle)
 	{
@@ -26,5 +29,15 @@ public class MessageThread
 	public String getThreadTitle()
 	{
 		return m_threadTitle;
+	}
+
+	public Boolean wasRead()
+	{
+		return m_wasRead;
+	}
+
+	public void setWasRead(Boolean wasRead)
+	{
+		this.m_wasRead = wasRead;
 	}
 }

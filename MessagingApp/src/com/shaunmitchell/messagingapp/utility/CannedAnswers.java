@@ -1,4 +1,4 @@
-package com.shaunmitchell.messagingapp;
+package com.shaunmitchell.messagingapp.utility;
 
 public class CannedAnswers
 {
